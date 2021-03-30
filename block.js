@@ -11,7 +11,7 @@ class block {
   this.visibility=255;
   }
   display(){
-    if(this.body.speed<5){
+    if(this.body.speed<3){
     var angle = this.body.angle;
     push();
     translate(this.body.position.x, this.body.position.y);
